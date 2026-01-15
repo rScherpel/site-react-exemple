@@ -8,7 +8,7 @@ export default function Header() {
       <div className="header-container">
         <button className="header-logo-wrap">
           <img
-            src=".\src\images\logo com texto branca.jpg"
+            src=".\src\assets\images\logo com texto branca.jpg"
             alt="imagem logo"
             className="header-logo"
           />

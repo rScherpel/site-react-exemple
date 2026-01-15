@@ -1,8 +1,8 @@
 
 :root {
-  --color-primary: #0f172a;
-  --color-accent: #d9c09b;
-
+  --color-primary: #063851;
+  /* --color-accent: #edd6c0; */
+  --color-accent: #f4dcc3;
   --color-background-light: rgba(255, 255, 255, 0.9);
   --color-border-light: rgba(217, 192, 155, 0.2);
 

@@ -1,41 +1,35 @@
 .footer {
   background: var(--color-primary);
   color: var(--color-white);
-  padding: 5rem 1.5rem 2.5rem;
+  padding: 2rem 1.5rem 2.5rem;
   font-family: sans-serif;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
 }
 
 .footer-content {
-  max-width: 1280px;
-  margin: 0 auto;
+  margin: 0;
 }
 
-/* Lista principal com 4 colunas */
 .footer-list {
   display: grid;
-  grid-template-columns: 1fr;
   gap: 3rem;
   padding-bottom: 4rem;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   list-style: none;
   margin: 0;
   padding: 0;
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: repeat(4, 1fr);
 }
 
-@media(min-width: 768px) {
-  .footer-list {
-    grid-template-columns: repeat(2, 1fr);
-  }
+.foooter-logo-img{
+  max-width: 16rem;
 }
-
-@media(min-width: 1024px) {
-  .footer-list {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
-
-/* Títulos das seções */
-.footer-list h1 {
+.list-tittles{
+  color: var(--color-accent);
   font-size: 1.25rem;
   font-weight: 700;
   margin-bottom: 1rem;
@@ -85,7 +79,7 @@
   width: 2.5rem;
   height: 2.5rem;
   border-radius: 9999px;
-  border: 1px solid rgba(255,255,255,0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -93,7 +87,7 @@
 }
 
 .footer-social .social-icon:hover {
-  background: rgba(255,255,255,0.1);
+  background: rgba(255, 255, 255, 0.1);
 }
 
 /* Mapa */
@@ -103,7 +97,7 @@
   height: 12rem;
   border-radius: 1rem;
   overflow: hidden;
-  border: 1px solid rgba(255,255,255,0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   filter: grayscale(100%) contrast(125%);
   opacity: 0.8;
   transition: all 0.5s ease;
@@ -118,17 +112,17 @@
   position: absolute;
   inset: 0;
   pointer-events: none;
-  border: 2px solid rgba(255,218,185,0.2);
+  border: 2px solid rgba(255, 218, 185, 0.2);
   border-radius: 1rem;
 }
 
 .map-caption {
   font-size: 0.625rem;
-  color: rgba(255,255,255,0.4);
+  color: rgba(255, 255, 255, 0.4);
   text-transform: uppercase;
   letter-spacing: 0.1em;
   font-weight: 700;
-  margin-top: 0.75rem;
+  margin: 0.5rem 0rem 0.75rem 0rem;
 }
 
 /* Footer bottom */
@@ -142,14 +136,7 @@
   text-transform: uppercase;
   letter-spacing: 0.1em;
   font-weight: 700;
-  color: rgba(255,255,255,0.4);
-}
-
-@media(min-width: 768px) {
-  .footer-bottom {
-    flex-direction: row;
-    justify-content: space-between;
-  }
+  color: rgba(255, 255, 255, 0.4);
 }
 
 .footer-links {
