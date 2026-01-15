@@ -1,0 +1,10 @@
+:root {
+  --color-primary: #0f172a;
+  --color-secondary: #38bdf8;
+  --color-text: #0f172a;
+  --color-bg: #ffffff;
+
+  --header-height: 64px;
+
+  --font-base: 'Inter', sans-serif;
+}
