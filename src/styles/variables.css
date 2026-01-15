@@ -1,10 +1,12 @@
+
 :root {
   --color-primary: #0f172a;
-  --color-secondary: #38bdf8;
-  --color-text: #0f172a;
-  --color-bg: #ffffff;
+  --color-accent: #d9c09b;
 
-  --header-height: 64px;
+  --color-background-light: rgba(255, 255, 255, 0.9);
+  --color-border-light: rgba(217, 192, 155, 0.2);
+
+  --color-white: #ffffff;
 
   --font-base: 'Inter', sans-serif;
 }
