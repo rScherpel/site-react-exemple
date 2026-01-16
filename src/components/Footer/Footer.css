@@ -48,13 +48,13 @@
   margin-bottom: 0.75rem;
 }
 
-.footer-sublist li a {
-  color: rgba(255, 255, 255, 0.6);
+.quick-links {
+  color: var(--color-white);
   text-decoration: none;
   transition: color 0.2s ease;
 }
 
-.footer-sublist li a:hover {
+.quick-links:hover {
   color: var(--color-accent);
 }
 

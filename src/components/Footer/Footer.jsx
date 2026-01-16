@@ -13,7 +13,7 @@ export default function Footer() {
           <li>
             <h1 className="list-tittles">Links</h1>
             <ul className="footer-sublist">
-              <li>
+              <li className="quick-links">
                 <Link to="/practice-areas">Áreas de Atuação</Link>
               </li>
               <li>
