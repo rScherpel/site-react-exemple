@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
 import "./Header.css";
+import HeaderNav from "./HeaderNav/HeaderNav.jsx";
 import { SITE } from "../../config/config";
 
 export default function Header() {
@@ -14,13 +14,7 @@ export default function Header() {
           />
         </button>
 
-        <nav className="header-nav">
-          <Link to="/">Home</Link>
-          <Link to="/team">Nossa Equipe</Link>
-          <Link to="/contact">Contatos</Link>
-          <Link to="/media">Na Mídia</Link>
-          <Link to="/about">Sobre Nós</Link>
-        </nav>
+        <HeaderNav/>
 
         <a
           href={SITE.whatsapp_link}

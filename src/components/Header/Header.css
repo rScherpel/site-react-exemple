@@ -1,17 +1,14 @@
 .header {
   position: sticky;
   top: 0;
-  z-index: 50;
-
   background: var(--color-background-light);
   backdrop-filter: blur(12px);
-
   border-bottom: 1px solid var(--color-border-light);
   padding: 16px 24px;
 }
 
 .header-container {
-  max-width: 1280px;
+  width: 90vw;
   margin: 0 auto;
 
   display: flex;
@@ -44,23 +41,6 @@
   color: var(--color-primary);
 }
 
-.header-nav {
-  display: flex;
-  gap: 40px;
-}
-
-.header-nav a {
-  font-size: 14px;
-  font-weight: 600;
-  text-decoration: none;
-  color: var(--color-primary);
-  transition: color 0.2s ease;
-}
-
-.header-nav a:hover {
-  color: var(--color-accent);
-}
-
 .header-button {
   display: inline-block; 
   background: var(--color-primary);
@@ -86,3 +66,14 @@
 .header-button:hover {
   opacity: 0.9;
 }
+
+/* Mobile */
+@media (max-width: 576px) {
+  .header{
+    border: red solid 2px;;
+  } 
+}
+
+/* Tablet */
+@media (max-width: 768px) {}
+

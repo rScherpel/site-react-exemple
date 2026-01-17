@@ -1,0 +1,16 @@
+.header-nav {
+  display: flex;
+  gap: 40px;
+}
+
+.header-nav a {
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--color-primary);
+  transition: color 0.2s ease;
+}
+
+.header-nav a:hover {
+  color: var(--color-accent);
+}
