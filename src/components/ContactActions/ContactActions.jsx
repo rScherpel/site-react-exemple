@@ -2,6 +2,7 @@ import { SITE } from "../../config/config";
 import "./ContactActions.css";
 import { FaWhatsapp, FaInstagram, FaFacebook } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 export default function ContactActions() {
   return (
@@ -14,7 +15,7 @@ export default function ContactActions() {
             rel="noopener noreferrer"
             aria-label="WhatsApp"
           >
-            <FaWhatsapp size={26}/>
+            <FaWhatsapp size={26} />
           </a>
         </li>
         <li>
@@ -24,7 +25,7 @@ export default function ContactActions() {
             rel="noopener noreferrer"
             aria-label="Instagram"
           >
-              <FaInstagram size={26}/>
+            <FaInstagram size={26} />
           </a>
         </li>
         <li>
@@ -34,21 +35,17 @@ export default function ContactActions() {
             rel="noopener noreferrer"
             aria-label="Facebook"
           >
-              <FaFacebook size={26}/>
+            <FaFacebook size={26} />
           </a>
         </li>
         <li>
           <a href={`mailto:${SITE.email}`} aria-label="Email">
-              <IoMdMail size={26}/>
+            <IoMdMail size={26} />
           </a>
         </li>
       </ul>
-
       <p className="contact-helper">
-        Não achou o que precisava?{" "}
-        <a href={SITE.whatsapp_link} target="_blank">
-          clique aqui
-        </a>
+        Não achou o que precisava? <Link to="/contact">clique aqui</Link>
       </p>
     </div>
   );
