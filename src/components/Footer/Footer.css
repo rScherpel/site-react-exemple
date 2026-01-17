@@ -8,27 +8,28 @@
   width: 100vw;
 }
 
-.footer-content {
-  margin: 0;
-}
-
 .footer-list {
   display: grid;
-  gap: 3rem;
-  padding-bottom: 4rem;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   list-style: none;
   margin: 0;
-  padding: 0;
-  display: grid;
+  padding: 1rem;
+  display: flex;
   justify-content: space-between;
-  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  /* grid-template-columns: repeat(4, 1fr); */
 }
 
-.foooter-logo-img{
+.footer-sublist li {
+  padding: 0 0 0.5rem 0;
+}
+
+.foooter-logo-img {
   max-width: 16rem;
 }
-.list-tittles{
+.list-tittles {
+  display: flex;
+  justify-content: center;
   color: var(--color-accent);
   font-size: 1.25rem;
   font-weight: 700;
@@ -37,57 +38,30 @@
   letter-spacing: 0.05em;
 }
 
-/* Sub-listas (links) */
+#link-tittle {
+  justify-content: flex-start;
+}
+
 .footer-sublist {
-  list-style: none;
   margin: 0;
   padding: 0;
-}
-
-.footer-sublist li {
-  margin-bottom: 0.75rem;
-}
-
-.quick-links {
-  color: var(--color-white);
   text-decoration: none;
+}
+
+.quick-links a {
+  color: var(--color-white);
   transition: color 0.2s ease;
-}
-
-.quick-links:hover {
-  color: var(--color-accent);
-}
-
-/* Links de contato */
-.footer-list a {
-  color: var(--color-white);
+  list-style: none;
   text-decoration: none;
 }
 
-.footer-list a:hover {
+.quick-links a:hover {
   color: var(--color-accent);
 }
-
-/* Social icons */
-.footer-social {
+#contact-li {
   display: flex;
-  gap: 1rem;
-  margin-top: 1rem;
-}
-
-.footer-social .social-icon {
-  width: 2.5rem;
-  height: 2.5rem;
-  border-radius: 9999px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  transition: background 0.2s ease;
-}
-
-.footer-social .social-icon:hover {
-  background: rgba(255, 255, 255, 0.1);
 }
 
 /* Mapa */
@@ -98,7 +72,7 @@
   border-radius: 1rem;
   overflow: hidden;
   border: 1px solid rgba(255, 255, 255, 0.1);
-  filter: grayscale(100%) contrast(125%);
+  filter: grayscale(0%) contrast(125%);
   opacity: 0.8;
   transition: all 0.5s ease;
 }
