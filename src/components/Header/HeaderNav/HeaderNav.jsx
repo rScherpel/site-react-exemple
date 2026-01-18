@@ -4,7 +4,8 @@ import "./HeaderNav.css";
 
 export default function HeaderNav() {
   const device = useDeviceType();
-
+  console.log(device);
+  
   const navClass =
     device === "celular" ? "header-nav-mobile" : "header-nav";
 
