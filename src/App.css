@@ -1,0 +1,13 @@
+html, body, #root {
+  height: 100%;
+}
+
+.app {
+  min-height: 99vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app > main {
+  flex: 1;
+}
