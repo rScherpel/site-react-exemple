@@ -40,7 +40,7 @@
 }
 
 .contact-helper a {
-  color: var(--color-white);
+  color: var(--basic-text-color);
   font-weight: 700;
   text-decoration: none;
 }

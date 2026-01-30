@@ -11,6 +11,7 @@ const lightTheme = {
   "--color-background-dark-alpha": "rgba(255,255,255,0.9)",
   "--color-border-accent": "rgba(0,255,209,0.2)",
   "--color-glow": "rgba(0,255,209,0.4)",
+  "--basic-text-color": "#000000",
 };
 
 const darkTheme = {
@@ -22,6 +23,7 @@ const darkTheme = {
   "--color-background-dark-alpha": "rgba(10,25,47,0.9)",
   "--color-border-accent": "rgba(0,255,209,0.2)",
   "--color-glow": "rgba(0,255,209,0.4)",
+  "--basic-text-color": "#E6F1FF",
 };
 
 export function ThemeProvider({ children }) {

@@ -1,6 +1,6 @@
 .footer {
   background: var(--color-primary);
-  color: var(--color-white);
+  color: var(--basic-text-color);
   padding: 2rem 1.5rem 2.5rem;
   font-family: sans-serif;
   position: relative;
@@ -49,7 +49,7 @@
 }
 
 .quick-links a {
-  color: var(--color-white);
+  color: var(--basic-text-color);
   transition: color 0.2s ease;
   list-style: none;
   text-decoration: none;

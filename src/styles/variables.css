@@ -8,6 +8,7 @@
   --color-background-dark-alpha: rgba(10, 25, 47, 0.9);
   --color-border-accent: rgba(0, 255, 209, 0.2);
   --color-glow: rgba(0, 255, 209, 0.4);
+  --basic-text-color: #E6F1FF;
 
   /* Fontes */
   --font-header: 'Sora', sans-serif;
@@ -30,7 +31,7 @@ h1, .title-hero {
   font-weight: 800;
   font-size: 3rem;
   letter-spacing: -0.02em;
-  color: var(--color-white);
+  color: var(--basic-text-color);
   line-height: 1.1;
   margin-bottom: 1.5rem;
 }
@@ -38,7 +39,7 @@ h1, .title-hero {
 h2, h3 {
   font-family: var(--font-header);
   font-weight: 700;
-  color: var(--color-white);
+  color: var(--basic-text-color);
   letter-spacing: -0.01em;
 }
 
