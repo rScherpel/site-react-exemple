@@ -1,6 +1,7 @@
 import "./style.css";
 import HeaderNav from "@/pages/pageComponents/HeaderNav";
 import { SITE } from "src/config/index.js";
+import ThemeToggle from "@/pages/pageComponents/ThemeToggle";
 import useDeviceType from "../../../hooks/useDeviceType";
 import Accordion from "@/components/Accordion";
 import { IoIosMenu } from "react-icons/io";
@@ -46,14 +47,7 @@ export default function Header() {
           />
         </a>
         <HeaderNav />
-        <a
-          href={SITE.whatsapp_link}
-          className="header-button"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Mande Mensagem!
-        </a>
+        <ThemeToggle />
       </div>
     </header>
   );

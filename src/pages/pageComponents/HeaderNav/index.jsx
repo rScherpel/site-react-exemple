@@ -5,17 +5,16 @@ import "./style.css";
 export default function HeaderNav() {
   const device = useDeviceType();
   console.log(device);
-  
-  const navClass =
-    device === "celular" ? "header-nav-mobile" : "header-nav";
+
+  const navClass = device === "celular" ? "header-nav-mobile" : "header-nav";
 
   return (
     <nav className={navClass}>
       <Link to="/">Home</Link>
-      <Link to="/team">Nossa Equipe</Link>
-      <Link to="/contact">Contatos</Link>
-      <Link to="/media">Na Mídia</Link>
+      <a href="">GitHub</a>
+      <Link to="/techs">Tecnologias</Link>
       <Link to="/about">Sobre Nós</Link>
+      <Link to="/contact">Contatos</Link>
     </nav>
   );
 }
