@@ -1,12 +1,16 @@
-
 :root {
-  --color-primary: #063851;
-  /* --color-accent: #edd6c0; */
-  --color-accent: #f4dcc3;
-  --color-background-light: rgba(255, 255, 255, 0.9);
-  --color-border-light: rgba(217, 192, 155, 0.2);
+  --color-primary: #0A192F;         /* Midnight Blue (Fundo Profundo) */
+  --color-accent: #00FFD1;          /* Electric Cyan (Destaques e Glow) */
+  --color-secondary: #7B2CBF;       /* Cyber Violet (Gradientes/Hover) */
+  
+  --color-white: #E6F1FF;           /* Ghost White (Texto principal, menos agressivo que #FFF) */
+  --color-text-muted: #8892B0;      /* Slate Grey (Para descrições e comentários de código) */
+  
+  --color-background-dark-alpha: rgba(10, 25, 47, 0.9);
+  --color-border-accent: rgba(0, 255, 209, 0.2);
+  --color-glow: rgba(0, 255, 209, 0.4);
 
-  --color-white: #ffffff;
-
+  --font-header: 'Sora', sans-serif;
   --font-base: 'Inter', sans-serif;
+  --font-code: 'JetBrains Mono', monospace;
 }
