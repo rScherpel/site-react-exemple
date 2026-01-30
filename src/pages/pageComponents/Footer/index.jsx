@@ -15,7 +15,9 @@ export default function Footer() {
           />
         </li>
         <li>
-          <h1 className="list-tittles" id="link-tittle">Links</h1>
+          <h1 className="list-tittles" id="link-tittle">
+            Links
+          </h1>
           <ul className="footer-sublist">
             <li className="quick-links">
               <Link to="/practice-areas">Áreas de Atuação</Link>
@@ -30,28 +32,15 @@ export default function Footer() {
               <Link to="/our-office">Nosso escritório</Link>
             </li>
           </ul>
-        </li>  
-
-        <li>
-          <h1 className="list-tittles" id="contact-li">Entre em Contato</h1>
-          <ul>
-            <ContactActions/>
-          </ul>
         </li>
 
         <li>
-          {/* <h1 className="list-tittles">Localização</h1> */}
-          <div className="footer-map">
-            <iframe
-              src="https://maps.google.com/maps?q=Tv.%20do%20Paço,%2023%20-%20Centro,%20Rio%20de%20Janeiro%20-%20RJ,%2020010-170&z=15&output=embed"
-              width="100%"
-              height="100%"
-            ></iframe>
-            <div className="map-overlay"></div>
-          </div>
-          <p className="map-caption">
-            Tv. do Paço, 23 - Centro, Rio de Janeiro - RJ, 20010-170
-          </p>
+          <h1 className="list-tittles" id="contact-li">
+            Entre em Contato
+          </h1>
+          <ul>
+            <ContactActions />
+          </ul>
         </li>
       </ul>
 
