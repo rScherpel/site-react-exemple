@@ -7,14 +7,15 @@ export default function ThemeSwitch() {
 
   return (
     <FormControlLabel
-      control={
-        <ThemeSwitchStyled
-          checked={dark}
-          onChange={toggleTheme}
-        />
-      }
+      control={<ThemeSwitchStyled checked={dark} onChange={toggleTheme} />}
       label={dark ? "Dark" : "Light"}
+      sx={{
+        "& .MuiFormControlLabel-label": {
+          color: dark ? "#fff" : "#000",
+          fontWeight: "bold",
+          fontSize: "1rem",
+        },
+      }}
     />
   );
 }
-

@@ -1,16 +1,52 @@
 :root {
-  --color-primary: #0A192F;         /* Midnight Blue (Fundo Profundo) */
-  --color-accent: #00FFD1;          /* Electric Cyan (Destaques e Glow) */
-  --color-secondary: #7B2CBF;       /* Cyber Violet (Gradientes/Hover) */
-  
-  --color-white: #E6F1FF;           /* Ghost White (Texto principal, menos agressivo que #FFF) */
-  --color-text-muted: #8892B0;      /* Slate Grey (Para descrições e comentários de código) */
-  
+  /* Cores principais */
+  --color-primary: #0A192F;          /* Fundo escuro inicial */
+  --color-accent: #00FFD1;
+  --color-secondary: #7B2CBF;
+  --color-white: #E6F1FF;
+  --color-text-muted: #8892B0;
   --color-background-dark-alpha: rgba(10, 25, 47, 0.9);
   --color-border-accent: rgba(0, 255, 209, 0.2);
   --color-glow: rgba(0, 255, 209, 0.4);
 
+  /* Fontes */
   --font-header: 'Sora', sans-serif;
   --font-base: 'Inter', sans-serif;
   --font-code: 'JetBrains Mono', monospace;
+}
+
+/* Base do corpo */
+body {
+  background-color: var(--color-primary);
+  color: var(--color-text-muted);
+  font-family: var(--font-base);
+  -webkit-font-smoothing: antialiased;
+  transition: background 0.3s, color 0.3s;
+}
+
+/* Títulos */
+h1, .title-hero {
+  font-family: var(--font-header);
+  font-weight: 800;
+  font-size: 3rem;
+  letter-spacing: -0.02em;
+  color: var(--color-white);
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+}
+
+h2, h3 {
+  font-family: var(--font-header);
+  font-weight: 700;
+  color: var(--color-white);
+  letter-spacing: -0.01em;
+}
+
+/* Código */
+code, pre {
+  font-family: var(--font-code);
+  background: rgba(136, 146, 176, 0.1);
+  color: var(--color-accent);
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
 }
