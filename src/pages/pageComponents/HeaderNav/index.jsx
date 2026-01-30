@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import { useDeviceType } from "../../../hooks/useDeviceType";
-import "./HeaderNav.css";
+import useDeviceType from "../../../hooks/useDeviceType";
+import "./style.css";
 
 export default function HeaderNav() {
   const device = useDeviceType();

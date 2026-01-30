@@ -1,5 +1,5 @@
-import Header from "./components/Header/Header";
-import Footer from "./components/Footer/Footer";
+import Header from "./pages/pageComponents/Header/index.jsx"
+import Footer from "./pages/pageComponents/Footer/index.jsx"
 import Body from "./pages/Body";
 import "./App.css"
 

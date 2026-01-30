@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-export function useDeviceType() {
+export default function useDeviceType() {
   const getType = () => {
     const width = window.innerWidth;
 
