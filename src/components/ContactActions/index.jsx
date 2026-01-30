@@ -1,5 +1,5 @@
-import { SITE } from "../../config/config";
-import "./ContactActions.css";
+import { SITE } from "../../config/index";
+import "./style.css";
 import { FaWhatsapp, FaInstagram, FaFacebook } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 import { Link } from "react-router-dom";

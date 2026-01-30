@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import { SITE } from "src/config/config.js";
+import { SITE } from "src/config";
 import "./style.css";
-import ContactActions from "src/components/ContactActions/ContactActions.jsx";
+import ContactActions from "src/components/ContactActions/index.jsx";
 
 export default function Footer() {
   return (

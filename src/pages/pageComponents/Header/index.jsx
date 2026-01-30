@@ -1,8 +1,8 @@
 import "./style.css";
 import HeaderNav from "@/pages/pageComponents/HeaderNav";
-import { SITE } from "src/config/config.js";
+import { SITE } from "src/config/index.js";
 import useDeviceType from "../../../hooks/useDeviceType";
-import Accordion from "@/components/Accordion/Accordion";
+import Accordion from "@/components/Accordion";
 import { IoIosMenu } from "react-icons/io";
 
 export default function Header() {
