@@ -9,7 +9,7 @@ export default function Footer() {
       <ul className="footer-list">
         <li className="foooter-logo-img">
           <img
-            src=".\src\assets\images\logo azul redonda.jpg"
+            src=".\src\assets\images\logo sem fundo.svg"
             alt=""
             className="foooter-logo-img"
           />

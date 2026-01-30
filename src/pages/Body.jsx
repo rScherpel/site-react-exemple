@@ -5,10 +5,7 @@ import PrivacyPolicy from "./PrivacyPolicy";
 export default function Body() {
   return(    
     <main>
-        <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/politica-de-privacidade" element={<PrivacyPolicy />} />
-        </Routes>
+        <h1>teste</h1>
     </main>
     )
 }

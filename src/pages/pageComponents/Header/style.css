@@ -19,12 +19,11 @@
   display: flex;
   align-items: center;
   border: none;
-  width: 15rem;
-}
+  }
 
 .header-logo {
   border: none;
-  width: 15rem;
+  width: 3rem;
 }
 
 .brand-icon {
@@ -33,7 +32,7 @@
 }
 
 .brand-title {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
   letter-spacing: 0.05em;
   text-transform: uppercase;
@@ -45,9 +44,9 @@
   background: var(--color-primary);
   color: var(--color-white);
 
-  padding: 10px 24px;
-  border-radius: 8px;
-  font-size: 14px;
+  padding: 0.625rem 1.5rem;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
   font-weight: 700;
   letter-spacing: 0.05em;
   text-decoration: none;

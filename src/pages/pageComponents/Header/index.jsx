@@ -12,7 +12,7 @@ export default function Header() {
   if (device !== "notebook") {
     return (
       <header className="header">
-      <h1>GUAPEL</h1>
+        <h1>GUAPEL</h1>
         <div>
           <Accordion
             className="accordion"
@@ -34,7 +34,10 @@ export default function Header() {
   return (
     <header className="header">
       <div className="header-container">
-      <h1>GUAPEL</h1>
+        <div className="header-logo-wrap">
+          <img src="public/favicon.svg" alt="logo" className="header-logo"/>
+          <h1>UAPEL</h1>
+        </div>
         <HeaderNav />
         <ThemeSwitch />
       </div>
