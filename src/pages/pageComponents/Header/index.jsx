@@ -35,7 +35,7 @@ export default function Header() {
     <header className="header">
       <div className="header-container">
         <div className="header-logo-wrap">
-          <img src="public/favicon.svg" alt="logo" className="header-logo"/>
+          <img src="/favicon.svg" alt="logo" className="header-logo"/>
           <h1>UAPEL</h1>
         </div>
         <HeaderNav />

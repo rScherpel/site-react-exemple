@@ -11,9 +11,9 @@ export default function HeaderNav() {
   return (
     <nav className={navClass}>
       <Link to="/">Home</Link>
-      <a href="">GitHub</a>
+      <a href="https://github.com/rScherpel/site-react-exemple" target="_blank" rel="noopener noreferrer">GitHub</a>
       <Link to="/techs">Tecnologias</Link>
-      <Link to="/about">Sobre Nós</Link>
+      <Link to="/about">Sobre</Link>
       <Link to="/contact">Contatos</Link>
     </nav>
   );
