@@ -5,7 +5,7 @@ import PrivacyPolicy from "./PrivacyPolicy";
 export default function Body() {
   return(    
     <main>
-        <h1>teste</h1>
+        <Home />
     </main>
     )
 }
