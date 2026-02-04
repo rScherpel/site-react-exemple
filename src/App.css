@@ -10,4 +10,6 @@ html, body, #root {
 
 .app > main {
   flex: 1;
+  margin-right: 6rem;
+  margin-left: 6rem;
 }
