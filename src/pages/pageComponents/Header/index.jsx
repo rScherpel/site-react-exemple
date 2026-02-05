@@ -11,22 +11,25 @@ export default function Header() {
   if (device !== "notebook") {
     return (
       <header className="header">
-        <h1>GUAPEL</h1>
-        <div>
-          <Accordion
-            className="accordion"
-            wrapperClass="accordion-container"
-            buttonClass="accordion-button"
-            panelClass="accordion-panel"
-            items={[
-              {
-                title: <IoIosMenu size={27} />,
-                content: <HeaderNav />,
-              },
-            ]}
-          />
+        <div className="header-first-part">
+          <div className="header-logo-wrap">
+            <img src="/favicon.svg" alt="logo" className="header-logo" />
+            <h1>UAPEL</h1>
+          </div>
+          <ThemeSwitch />
         </div>
-        <ThemeSwitch />
+        <Accordion
+          className="accordion"
+          wrapperClass="accordion-container"
+          buttonClass="accordion-button"
+          panelClass="accordion-panel"
+          items={[
+            {
+              title: <IoIosMenu size={27} />,
+              content: <HeaderNav />,
+            },
+          ]}
+        />
       </header>
     );
   }
@@ -34,7 +37,7 @@ export default function Header() {
     <header className="header">
       <div className="header-container">
         <div className="header-logo-wrap">
-          <img src="/favicon.svg" alt="logo" className="header-logo"/>
+          <img src="/favicon.svg" alt="logo" className="header-logo" />
           <h1>UAPEL</h1>
         </div>
         <HeaderNav />
