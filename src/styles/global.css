@@ -7,6 +7,6 @@
 body {
   font-family: var(--font-base);
   color: var(--color-text);
-  background: var(--color-background-dark-alpha);
+  background: var(--color-primary);
   padding-top: var(--header-height);
 }
