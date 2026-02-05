@@ -1,0 +1,91 @@
+.send-message {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 1.5rem;
+  border-radius: 1rem;
+
+  background: linear-gradient(
+    180deg,
+    var(--send-bg-start),
+    var(--send-bg-end)
+  );
+
+  box-shadow: 0 0 2.5rem var(--send-shadow-soft);
+
+  color: var(--basic-text-color);
+  font-family: Inter, sans-serif;
+}
+
+.send-message__header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.send-message__header h2 {
+  font-size: 0.875rem;
+  letter-spacing: 0.0625rem;
+  color: var(--color-accent);
+}
+
+.send-message__form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.row {
+  display: flex;
+  gap: 1rem;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 0.375rem;
+}
+
+.field label {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+}
+
+.field input,
+.field select,
+.field textarea {
+  background: var(--send-input-bg);
+  border: 0.0625rem solid var(--send-border);
+  border-radius: 0.5rem;
+  padding: 0.625rem 0.75rem;
+  color: var(--basic-text-color);
+  font-size: 0.875rem;
+}
+
+.field textarea {
+  min-height: 7.5rem;
+  resize: none;
+}
+
+.send-message__button {
+  margin-top: 0.5rem;
+  background: var(--color-accent);
+  color: var(--send-button-text);
+  border: none;
+  border-radius: 0.625rem;
+  padding: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+
+  box-shadow: 0 0 1.5rem var(--send-shadow-soft);
+
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+.send-message__button:hover {
+  transform: translateY(-0.0625rem);
+  box-shadow: 0 0 2rem var(--send-shadow-strong);
+}

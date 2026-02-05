@@ -1,4 +1,5 @@
 import ContactCards from "../pageComponents/ContactCards";
+import SendMessage from "../pageComponents/SendMessage";
 import "./style.css";
 
 export default function Contacts() {
@@ -10,6 +11,7 @@ export default function Contacts() {
       </div>
 
       <ContactCards />
+      <SendMessage />
     </div>
   );
 }

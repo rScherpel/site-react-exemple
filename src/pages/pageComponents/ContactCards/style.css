@@ -2,29 +2,34 @@
   display: flex;
   gap: 6rem;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .contact-card {
+  width: 16rem;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+
   background: linear-gradient(
     to bottom right,
-    var(--color-primary),
-    var(--color-background-dark-alpha)
+    var(--card-bg-start),
+    var(--card-bg-end)
   );
-  border-radius: 0.75rem;
-  padding: 1.5rem;
+
   text-align: center;
   text-decoration: none;
-  color: var(--color-white);
-  border: var(--color-glow) 1px solid;
+  color: var(--basic-text-color);
+
+  border: 0.0625rem solid var(--card-border);
+
   transition:
     transform 0.2s ease,
     box-shadow 0.2s ease;
-  width: 16rem;
 }
 
 .contact-card:hover {
   transform: translateY(-0.25rem);
-  box-shadow: 0 0.625rem 1.875rem rgba(0, 255, 200, 0.15);
+  box-shadow: 0 0.625rem 1.875rem var(--card-shadow-hover);
 }
 
 .contact-icon {
@@ -32,14 +37,22 @@
   height: 3rem;
   margin: 0 auto 0.75rem;
   border-radius: 50%;
-  background: rgba(0, 255, 200, 0.15);
+
+  background: var(--card-icon-bg);
+  color: var(--color-accent);
+
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--color-accent00ffd1);
+}
+
+.contact-card h3 {
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+  color: var(--basic-text-color);
 }
 
 .contact-card p {
-  font-size: 0.85rem;
-  opacity: 0.8;
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
 }

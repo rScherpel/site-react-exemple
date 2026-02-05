@@ -1,6 +1,5 @@
 :root {
-  /* Cores principais */
-  --color-primary: #0A192F;          /* Fundo escuro inicial */
+  --color-primary: #0A192F;          
   --color-accent: #00FFD1;
   --color-secondary: #7B2CBF;
   --color-white: #E6F1FF;
@@ -9,14 +8,13 @@
   --color-border-accent: rgba(0, 255, 209, 0.2);
   --color-glow: rgba(0, 255, 209, 0.4);
   --basic-text-color: #E6F1FF;
+  --component-background: #0a192f;
 
-  /* Fontes */
   --font-header: 'Sora', sans-serif;
   --font-base: 'Inter', sans-serif;
   --font-code: 'JetBrains Mono', monospace;
 }
 
-/* Base do corpo */
 body {
   background-color: var(--color-primary);
   color: var(--color-text-muted);
@@ -25,7 +23,6 @@ body {
   transition: background 0.3s, color 0.3s;
 }
 
-/* Títulos */
 h1, .title-hero {
   font-family: var(--font-header);
   font-weight: 800;
@@ -42,7 +39,6 @@ h2, h3 {
   letter-spacing: -0.01em;
 }
 
-/* Código */
 code, pre {
   font-family: var(--font-code);
   background: rgba(136, 146, 176, 0.1);
