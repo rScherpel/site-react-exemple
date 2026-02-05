@@ -11,32 +11,32 @@ export default function SendMessage() {
       <form className="send-message__form">
         <div className="row">
           <div className="field">
-            <label>Sender Name</label>
-            <input placeholder="e.g. Alan Turing" />
+            <label>Nome</label>
+            <input placeholder="ex: Fulano da Silva" />
           </div>
 
           <div className="field">
-            <label>Contact Endpoint</label>
-            <input placeholder="email@address.com" />
+            <label>Email de Contato</label>
+            <input placeholder="silvafulano@exemplo.com" />
           </div>
         </div>
 
         <div className="field">
-          <label>Subject</label>
+          <label>tema</label>
           <select>
-            <option>Project Architecture Request</option>
-            <option>General Contact</option>
-            <option>Support</option>
+            <option>Preciso fazer um Software</option>
+            <option>Dúvidas</option>
+            <option>Suporte </option>
           </select>
         </div>
 
         <div className="field">
-          <label>Message Payload</label>
-          <textarea placeholder="Describe the scope of work or message content..." />
+          <label>Motivo da mensagem</label>
+          <textarea placeholder="Descreva o escopo do trabalho ou conteúdo da mensagem..." />
         </div>
 
         <button type="submit" className="send-message__button">
-          ▶ EXECUTE_SEND
+          ▶ ENVIAR_AGORA
         </button>
       </form>
     </section>

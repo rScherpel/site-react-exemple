@@ -5,19 +5,19 @@ import "./style.css";
 const contactItems = [
   {
     title: "GitHub",
-    description: "View Source / Architecture",
+    description: "Portfólio / Projetos",
     icon: <FaGithub size={22} />,
     link: SITE.github,
   },
   {
     title: "LinkedIn",
-    description: "Professional Network",
+    description: "Networking / Perfil Profissional",
     icon: <FaLinkedinIn size={22} />,
     link: SITE.linkedIn,
   },
   {
     title: "Email",
-    description: "Direct Communication",
+    description: "Comunicação Formal",
     icon: <FaAt size={22} />,
     link: "mailto:seuemail@email.com",
   },

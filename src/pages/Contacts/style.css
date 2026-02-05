@@ -1,14 +1,14 @@
 .contact-body {
-    border: black solid 1px;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem
 }
 
 
 .contact-title {
-    border: red solid 1px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 3%;
 }
 
