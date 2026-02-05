@@ -1,3 +1,4 @@
+import { SITE } from "../../../config/index";
 import { FaGithub, FaLinkedinIn, FaAt } from "react-icons/fa";
 import "./style.css";
 
@@ -6,13 +7,13 @@ const contactItems = [
     title: "GitHub",
     description: "View Source / Architecture",
     icon: <FaGithub size={22} />,
-    link: "https://github.com/rScherpel",
+    link: SITE.github,
   },
   {
     title: "LinkedIn",
     description: "Professional Network",
     icon: <FaLinkedinIn size={22} />,
-    link: "https://linkedin.com",
+    link: SITE.linkedIn,
   },
   {
     title: "Email",

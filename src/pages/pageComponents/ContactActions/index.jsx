@@ -1,6 +1,6 @@
 import { SITE } from "../../../config/index";
 import "./style.css";
-import { FaWhatsapp, FaInstagram, FaFacebook } from "react-icons/fa";
+import { FaWhatsapp, FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 import { Link } from "react-router-dom";
 
@@ -20,22 +20,22 @@ export default function ContactActions() {
         </li>
         <li>
           <a
-            href="https://www.instagram.com/"
+            href={SITE.github}
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Instagram"
+            aria-label="GitHub"
           >
-            <FaInstagram size={26} />
+            <FaGithub size={26} />
           </a>
         </li>
         <li>
           <a
-            href="https://www.facebook.com/"
+            href={SITE.linkedIn}
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Facebook"
+            aria-label="LinkedIn"
           >
-            <FaFacebook size={26} />
+            <FaLinkedinIn size={26} />
           </a>
         </li>
         <li>

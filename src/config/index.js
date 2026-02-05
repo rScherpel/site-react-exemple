@@ -6,6 +6,8 @@ export const SITE = {
   phone_formatado:"(21) 97171-2259",
   whatsapp_message: "Boa tarde! Vim pelo site, gostaria de fazer um projeto.",
   owner:"Rafael Scherpel",
+  linkedIn:"https://br.linkedin.com/in/rafael-guarnelli-scherpel-b091a6262",
+  github:"https://github.com/rScherpel",
 
   get whatsapp_link() {
     //return `https://wa.me/${this.phone}?text=${encodeURIComponent(
