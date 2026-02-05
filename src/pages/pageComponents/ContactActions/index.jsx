@@ -44,9 +44,9 @@ export default function ContactActions() {
           </a>
         </li>
       </ul>
-      <p className="contact-helper">
+      {/* <p className="contact-helper">
         Não achou o que precisava? <Link to="/contact">clique aqui</Link>
-      </p>
+      </p> */}
     </div>
   );
 }

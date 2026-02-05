@@ -1,6 +1,5 @@
 import "./style.css";
 import HeaderNav from "@/pages/pageComponents/HeaderNav";
-import { SITE } from "src/config/index.js";
 import ThemeSwitch from "@/pages/pageComponents/ThemeSwitch";
 import useDeviceType from "../../../hooks/useDeviceType";
 import Accordion from "@/components/Accordion";
